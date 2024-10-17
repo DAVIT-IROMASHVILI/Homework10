@@ -45,6 +45,7 @@ header {
 
 }
 
-.burger{
-    display: none;
-}
+
+    .burger_icon{
+        display: none;
+    }

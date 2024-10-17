@@ -1,10 +1,20 @@
 /* 881  */
 @media(max-width: 881px){
+   
+    .header{
+        padding-inline: 24px;
+    }
+
+    .burger_icon{
+        display: block;
+    }
     .header_nav{
         display: none;
     }
 
-    .header{
-        padding-inline: 24px;
+    .header_button{
+        display: none;
     }
+
+
 }
