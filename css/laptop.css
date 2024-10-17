@@ -1,0 +1,10 @@
+/* 881  */
+@media(max-width: 881px){
+    .header_nav{
+        display: none;
+    }
+
+    .header{
+        padding-inline: 24px;
+    }
+}
