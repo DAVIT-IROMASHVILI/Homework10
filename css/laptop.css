@@ -1,3 +1,15 @@
+/* 1439-769  */
+@media(max-width: 1301px){
+    /* header  */
+    .header{
+        padding-inline: 64px;
+    }
+    /* Section  */
+    .frame{
+        margin-top: 100px;
+    }
+}
+
 /* 881  */
 @media(max-width: 881px){
    
@@ -5,9 +17,6 @@
         padding-inline: 24px;
     }
 
-    .burger_icon{
-        display: block;
-    }
     .header_nav{
         display: none;
     }
@@ -16,5 +25,7 @@
         display: none;
     }
 
-
+    img.burger_icon {
+        display: block
+    }
 }
