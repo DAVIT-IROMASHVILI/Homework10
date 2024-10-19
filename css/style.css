@@ -60,11 +60,11 @@ header {
     background-position: center;
     display: flex;
     justify-content: center;
-    
-    
+
+
 }
 
-.frame{
+.frame {
     width: 354px;
     height: 56px;
     display: flex;
@@ -72,6 +72,7 @@ header {
     align-items: center;
     margin-top: 120px;
 }
+
 .frame_h2 {
     font-family: Inter;
     font-size: 48px;
@@ -79,4 +80,71 @@ header {
     line-height: 56px;
     letter-spacing: 0.10000000149011612px;
     color: #FFFFFF;
+}
+
+/* section_2 */
+.section2 {
+    padding: 94px;
+    background-color: #DEE2EB;
+
+}
+
+.section2_header {
+    color: #311500;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    margin-bottom: 56px;
+
+}
+
+.card_section {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+
+}
+
+.card {
+    padding: 8px 8px 16px;
+    background-color: #311500;
+}
+
+.card_img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+h5 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #C46A2B;
+    margin-block: 16px 14px;
+}
+
+.card_article_price {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #DEE2EB;
+}
+
+.card_button {
+    width: 27px;
+    height: 27px;
+    border-radius: 8px;
+    border: 1px solid #DEE2EB;
+    background-color: #C46A2B;
+}
+
+.card_article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
