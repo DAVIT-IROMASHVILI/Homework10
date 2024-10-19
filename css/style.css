@@ -103,13 +103,17 @@ header {
 .card_section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 20px;
+    flex-wrap: nowrap;
+    
 
 }
 
 .card {
     padding: 8px 8px 16px;
     background-color: #311500;
+    flex: 1 1 282px;
 }
 
 .card_img {
