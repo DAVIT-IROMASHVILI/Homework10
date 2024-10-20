@@ -8,6 +8,7 @@
 header {
     background-color: #311500;
     padding: 18px 94px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,6 +25,11 @@ header {
     font-weight: 500;
     line-height: 24px;
     color: #DEE2EB;
+    transition: all 0.4s;
+}
+
+.header_li:hover{
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
 }
 
 .active {
@@ -42,7 +48,13 @@ header {
     font-weight: 900;
     line-height: 24px;
     color: #FFFFFF;
+    cursor: pointer;
 
+}
+
+button:active{
+    box-shadow: inset -3px -3px 3px rgb(233, 114, 114), inset 3px 3px 3px rgba(0, 0, 0, 0.452);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.596);
 }
 
 
@@ -122,13 +134,25 @@ header {
     background-color: #311500;
     width: min(100%, 298px);
     flex: 1 0 298px;
+    transition: all 0.5s;
+}
+
+.card:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 10px #A52A2A, 0 0 20px #A52A2A;
 }
 
 .card_img {
     width: 100%;
     height: 180px;
     object-fit: cover;
+    transition: all 0.3s;
 }
+
+.card_img:hover{
+    border-radius: 10px;
+}
+
 
 h5 {
     font-family: Inter;
@@ -163,7 +187,7 @@ h5 {
 }
 
 /* Footer  */
-.footer {
+.footer{
     padding: 94px 0;
     background-color: #311500;
     display: flex;
@@ -182,11 +206,16 @@ h5 {
     text-align: center;
     color: #C46A2B;
     margin-bottom: 16px;
+    transition: all 0.4s;
 }
 
 .footer_li {
     margin-bottom: 8px;
     text-align: center;
+}
+
+.footer_li:hover{
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
 }
 
 .li_link {
