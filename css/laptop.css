@@ -5,23 +5,33 @@
         padding-inline: 64px;
     }
     /* Section  */
+    .section1{
+        height: 560px;
+    }
+
     .frame{
         margin-top: 100px;
     }
 
+    /* section 2  */
     .section2{
         padding-block: 64px;
     }
 
     .card_section{
-        /* padding-inline: 64px; */
+        padding-left: 64px;
         overflow-x: scroll;
     }  
 
     /* Footer  */
     .footer{
-        padding-block: 64px;
+        padding: 64px 0;
     }   
+
+    .footer_title{
+        font-size: 14px;
+        line-height:20px;
+    }
 }
 
 /* 881  */
@@ -41,5 +51,28 @@
 
     img.burger_icon {
         display: block
+    }
+
+    .frame{
+        margin-top: 80px;
+    }
+
+    /* Section1  */
+    .section1{
+        height: 420px;
+    }
+
+    /* section2  */
+    .section2{
+        padding-block: 24px;
+    }
+
+    .card_section{
+        padding-left: 24px;
+    }  
+
+    /* footer  */
+    .footer{
+        padding: 24px 0;
     }
 }

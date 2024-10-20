@@ -2,4 +2,42 @@
     .header{
         padding-inline: 8px;
     }
+
+    /* section1  */
+    .section1{
+        height: 320px;
+    }
+
+    .frame {
+        width: 250px;
+        height: 40px;
+        margin-top: 60px;
+
+    }
+    .frame_h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .vector{
+        width: 30px;
+        height: 30px;
+    }
+
+    /* section2  */
+    .section2_header{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .card_section{
+        padding-left: 8px;
+    }
+        
+    /* footer */
+    .footer{
+        flex-direction: column;
+    }
+
+
 }
