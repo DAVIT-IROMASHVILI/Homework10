@@ -9,17 +9,19 @@
         margin-top: 100px;
     }
 
+    .section2{
+        padding-block: 64px;
+    }
+
     .card_section{
+        /* padding-inline: 64px; */
         overflow-x: scroll;
-    }
+    }  
 
-    .card{
-        flex-shrink: 0;
-    }
-
-    
-    
-
+    /* Footer  */
+    .footer{
+        padding-block: 64px;
+    }   
 }
 
 /* 881  */
